@@ -1,0 +1,29 @@
+{
+  "name": "Jannat",
+  "companion": "Doormatt",
+  "age": 21,
+  "title": "The Birthday Adventure",
+  "final_message": "Thank you for being the best part of so many days, bauni. Happy Birthday!",
+  "guided": true,
+
+  // Up to 3 chests fit in the forest, 3 in the lake, 4 in the garden, 4 in the
+  // castle and 1 in the final area. Extra chests move to the nearest area with room.
+  // "photo" is optional: a path relative to the game folder, e.g. assets/photos/one.jpg
+  "chests": [
+    { "id": 1, "area": "forest", "title": "The Very First Memory",
+      "message": "Meeting you was the first best thing that happened to me after a long time.",
+      "photo": "assets/photos/one.jpeg" },
+    { "id": 2, "area": "lake", "title": "A Calm In The Chaos",
+      "message": "Some of my favourite times were the calm ones with you,(P.S dont kill me for using this pic 😭)",
+      "photo": "assets/photos/two.jpeg" },
+    { "id": 3, "area": "garden", "title": "Everything Blooming",
+      "message": "Every moment with you is a soothing moment and every glance at you is a  bliss to my eyes .",
+      "photo": "assets/photos/three.jpeg" },
+    { "id": 4, "area": "castle", "title": "Castle of Memories",
+      "message": "Here is to all the memories we have built together, bauni.",
+      "photo": "assets/photos/four.jpeg" },
+    { "id": 5, "area": "final", "final": true, "title": "Happy Birthday, Jannat!",
+      "message": "You found every memory, meri maa. This whole world was made for you and only you I hope you loved it.",
+      "photo": "assets/photos/five.jpeg" }
+  ]
+}
